@@ -12,8 +12,9 @@ makedepends=(python python-build python-installer python-wheel python-setuptools
              cmake git)
 source=("$pkgname-$pkgver.tar.gz::https://pypi.org/packages/source/d/dm-tree/dm-tree-${pkgver}.tar.gz"
         CMakeLists.txt.patch)
+
 sha256sums=('0fcaabbb14e7980377439e7140bd05552739ca5e515ecb3119f234acee4b9430'
-            '84c9cbd52b3852af2e97dc6261c0114c78d40bc3deeb6b7638dd3864df1a9f72')
+            'abd81eb1d12a4dd3e33e599831581ba92a36228bf53d5a23e7ad19d380ef4e38')
 
 _pkgname=dm-tree
 
